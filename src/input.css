@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Primary Colors  */
+  --color-primaryColor: ;
+  --color-primaryLight: ;
+
+  /* Text Color  */
+  --color-headingColor: ;
+  --color-paragraphColor: ;
+
+  /* Google Fonts */
+  --font-primary: 'Poppins', sans-serif;
+
+  /* Dark Color */
+  --color-dark1Color: ;
+  --color-dark2Color: ;
+  --color-dark3Color: ;
+  --color-dark4Color: ;
+  --color-dark5Color: ;
+}
