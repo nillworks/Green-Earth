@@ -22,12 +22,42 @@
   <header id="header_area">
 
 
-    <nav>
-      <div class="containers">
+    <nav class="py-4 bg-primaryColor">
+      <div class="containers flex items-center justify-between">
 
         <!-- Logo -->
+        <div>
+          <h2 class="text-textWhite text-2xl font-semibold">Green Earth</h2>
+        </div>
+
         <!-- Navigation Menu -->
-        <!-- Btn  -->
+        <div>
+          <ul id="Navigation_manu"
+            class="fixed top-0 left-0 w-[80%] bg-pink-300 h-screen flex flex-col justify-center text-left  sm:gap-4 text-textWhite sm:static sm:flex-row sm:w-auto sm:h-auto sm:bg-transparent sm:items-center sm:pl-0">
+            <li class=""><a href="#" class="bg-teal-300 pl-4 block sm:inline-block sm:pl-0 sm:bg-transparent">About</a>
+            </li>
+            <li class=""><a href="#"
+                class="bg-teal-300 pl-4 block sm:inline-block sm:pl-0 sm:bg-transparent">Gallery</a></li>
+            <li class=""><a href="#" class="bg-teal-300 pl-4 block sm:inline-block sm:pl-0 sm:bg-transparent">Plant a
+                Tree</a></li>
+          </ul>
+        </div>
+
+
+        <!-- Btn Plant a Tree -->
+        <div class="hidden sm:block">
+          <a href="#" class="bg-yellowColor p-3 px-5 rounded-full text-primaryColor font-medium">Plant A Tree</a>
+        </div>
+
+
+        <!-- Mobile Bares -->
+        <div class="sm:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+          </svg>
+
+        </div>
 
       </div>
     </nav>
@@ -66,8 +96,6 @@
 
       </div>
     </Section>
-
-
 
     <!--  -->
     <Section id="">

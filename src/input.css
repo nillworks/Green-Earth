@@ -2,20 +2,31 @@
 
 @theme {
   /* Primary Colors  */
-  --color-primaryColor: ;
-  --color-primaryLight: ;
+  --color-primaryColor: #15803d;
+  --color-yellowColor: #facc15;
+  --color-textWhite: white;
 
   /* Text Color  */
-  --color-headingColor: ;
+  --color-headingColor: white;
   --color-paragraphColor: ;
 
   /* Google Fonts */
   --font-primary: 'Poppins', sans-serif;
 
-  /* Dark Color */
+  /* Dark Color
   --color-dark1Color: ;
   --color-dark2Color: ;
   --color-dark3Color: ;
   --color-dark4Color: ;
-  --color-dark5Color: ;
+  --color-dark5Color: ; */
+}
+
+@layer utilities {
+  body {
+    font-family: var(--font-primary);
+  }
+  .containers {
+    max-width: 1368px;
+    @apply mx-auto py-2 px-1;
+  }
 }
