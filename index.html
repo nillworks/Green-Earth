@@ -32,8 +32,8 @@
 
         <!-- Navigation Menu -->
         <div>
-          <ul id="Navigation_manu"
-            class="fixed top-0 left-0 w-[80%] bg-pink-300 h-screen flex flex-col justify-center text-left  sm:gap-4 text-textWhite sm:static sm:flex-row sm:w-auto sm:h-auto sm:bg-transparent sm:items-center sm:pl-0">
+          <ul id="Navigation_menu"
+            class="fixed top-0 left-0 w-[80%] bg-pink-300 h-screen flex flex-col justify-center text-left -translate-x-full transition duration-300  sm:gap-4 text-textWhite sm:static sm:flex-row sm:w-auto sm:h-auto sm:bg-transparent sm:items-center sm:pl-0 sm:translate-x-0">
             <li class=""><a href="#" class="bg-teal-300 pl-4 block sm:inline-block sm:pl-0 sm:bg-transparent">About</a>
             </li>
             <li class=""><a href="#"
@@ -51,10 +51,17 @@
 
 
         <!-- Mobile Bares -->
-        <div class="sm:hidden">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+        <div id="MobileBars" class="text-white text-2xl sm:hidden">
+          <!-- Hamburger -->
+          <svg id="openIcon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
             stroke="currentColor" class="size-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+          </svg>
+
+          <!-- Close -->
+          <svg id="closeIcon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6 hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
           </svg>
 
         </div>
@@ -63,8 +70,19 @@
     </nav>
 
     <!-- Hero Header area -->
-    <section id="hero_area">
+    <section id="hero_area" class="bg-bgPrimary">
       <div class="containers">
+
+        <!-- Hero contents -->
+        <div class="text-center flex flex-col gap-2 py-24">
+          <h1 class="text-headingColor font-bold text-3xl sm:text-4xl lg:text-5xl">Plant a Tree, Grow a Future</h1>
+          <p>Join our mission to plant 1 million trees and make the Earth greener for future <br>
+            generations.</p>
+          <a href="#"
+            class="bg-yellowColor mt-4 p-3 px-5 rounded-full text-primaryColor font-medium max-w-max mx-auto hover:bg-yellow-400 transition-colors">Get
+            Involved</a>
+        </div>
+
 
       </div>
     </section>
@@ -112,6 +130,10 @@
 
     </div>
   </footer>
+
+  <!-- Js Link   -->
+  <script src="Js/sctipt.js"></script>
+
 
 
 </body>
