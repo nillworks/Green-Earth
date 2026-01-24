@@ -12,6 +12,7 @@
 
   /* Bg Color */
   --color-bgPrimary: #cff0dc;
+  --color-bgSrc: #f0fdf4;
 
   /* Google Fonts */
   --font-primary: 'Poppins', sans-serif;
@@ -35,6 +36,17 @@
   .containers {
     max-width: 1368px;
     @apply mx-auto py-2 px-1;
+  }
+
+  .customWidth {
+    max-width: 298px;
+    height: 178px;
+  }
+  .wdths {
+    width: 330px;
+  }
+  .borders {
+    border-top: 1px solid #ddd;
   }
   #hero_area {
     /* Mobile default */
