@@ -317,8 +317,14 @@
   .bg-teal-300 {
     background-color: var(--color-teal-300);
   }
+  .bg-white {
+    background-color: var(--color-white);
+  }
   .bg-yellowColor {
     background-color: var(--color-yellowColor);
+  }
+  .p-1 {
+    padding: calc(var(--spacing) * 1);
   }
   .p-3 {
     padding: calc(var(--spacing) * 3);
