@@ -379,7 +379,12 @@
 
     <!-- About the Campaign -->
     <Section id="About_area" class="bg-bgSrc px-2 pb-24">
-      <div class="containers">
+      <div class="containers flex flex-col gap-5">
+
+        <!-- Title and Subtitle -->
+        <div class="text-center text-2xl  font-semibold text-headingColor">
+          <h2 class="">About the Campaign</h2>
+        </div>
 
         <div class="flex flex-col items-center justify-center gap-7 sm:flex-row">
 
@@ -408,9 +413,38 @@
     </Section>
 
 
-    <!--  -->
-    <Section id="">
-      <div class="containers">
+    <!-- Our Impact Section  -->
+    <Section id="" class="bg-bgPrimary py-24">
+      <div class="containers flex flex-col gap-4">
+
+        <!-- Title and Subtitle -->
+        <div class="text-center text-2xl  font-semibold text-headingColor">
+          <h2 class="">Our Impact</h2>
+        </div>
+
+
+        <!-- 3 impact Cards -->
+        <div class="flex items-center flex-wrap gap-4 justify-center sm:flex-row">
+
+          <!-- item 1 -->
+          <div class="px-10 py-4 rounded-lg bg-white shadow">
+            <h2 class="text-primaryColor text-lg font-semibold">500K+</h2>
+            <span class="text-gray-500">Trees Planted</span>
+          </div>
+
+          <!-- item 1 -->
+          <div class="px-10 py-4 rounded-lg bg-white shadow">
+            <h2 class="text-primaryColor text-lg font-semibold">500K+</h2>
+            <span class="text-gray-500">Trees Planted</span>
+          </div>
+
+          <!-- item 1 -->
+          <div class="px-10 py-4 rounded-lg bg-white shadow">
+            <h2 class="text-primaryColor text-lg font-semibold">500K+</h2>
+            <span class="text-gray-500">Trees Planted</span>
+          </div>
+
+        </div>
 
       </div>
     </Section>
@@ -425,11 +459,31 @@
   </main>
 
   <!-- Footer Area  -->
-  <footer id="footer_area">
-    <div class="containers">
+  <footer id="footer_area" class="py-24 bg-[#166534]">
+    <div class="containers flex flex-col gap-4">
 
 
+      <!-- Title and Subtitle -->
+      <div class="text-center text-2xl  font-semibold text-headingColor">
+        <h2 class="text-white">Plant a Tree Today</h2>
+      </div>
 
+      <form class="sm:w-[570px] p-7 mx-auto rounded-lg bg-[#15803D] flex flex-col gap-4" action="#">
+
+        <div class="flex items-center flex-col gap-3 w-full">
+          <input class="bg-white w-full py-3 px-5 outline-none rounded-lg" type="text" name="" id=""
+            placeholder="Your Name">
+          <input class="bg-white w-full py-3 px-5 outline-none rounded-lg" type="email" name=" " id=""
+            placeholder="Your Email Address">
+          <input class="bg-white w-full py-3 px-5 outline-none rounded-lg" type="number" name="" id=""
+            placeholder="Number of Trees">
+        </div>
+
+        <div class="text-center w-full">
+          <input class="text-center  bg-amber-300 rounded-full py-3 px-6 w-full" type="submit" value="Donate Now">
+        </div>
+
+      </form>
 
 
     </div>
