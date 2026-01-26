@@ -26,4 +26,4 @@ This project was built mainly to **practice JavaScript fundamentals** along with
 
 ## 🚀 Live Demo
 
-🔗 **Live Website:**  
+🔗 **Live Website:**  https://greenwebsites.netlify.app/
