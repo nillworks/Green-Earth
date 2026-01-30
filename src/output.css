@@ -700,6 +700,7 @@
       background-size: contain, contain;
       background-repeat: no-repeat, no-repeat;
       background-color: var(--color-bgPrimary);
+      font-size: large;
     }
   }
 }
